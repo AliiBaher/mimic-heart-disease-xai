@@ -1,0 +1,44 @@
+# ── Credentials & secrets ──────────────────────────────────────────
+.env
+
+# ── Data (never commit raw MIMIC-III data) ────────────────────────
+data/
+*.csv
+*.parquet
+*.feather
+
+# ── Trained model artefacts ───────────────────────────────────────
+models/
+*.joblib
+*.pkl
+
+# ── Output artefacts ──────────────────────────────────────────────
+outputs/figures/*.png
+outputs/tables/*.csv
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Virtual environments ──────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter / IPython ────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS & editor artefacts ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

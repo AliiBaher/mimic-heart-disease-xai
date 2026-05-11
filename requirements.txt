@@ -1,0 +1,18 @@
+# Core data & DB
+pandas>=2.0
+numpy>=1.26
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+
+# Machine learning
+scikit-learn>=1.4
+
+# Explainability
+shap>=0.45
+
+# Visualisation
+matplotlib>=3.8
+
+# Model persistence
+joblib>=1.3
